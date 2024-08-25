@@ -1,5 +1,3 @@
-const nums = [1, 1, 3, 5, 5, 6, 7, 7, 7, 8];
-
 function removeDuplicates(nums: number[]): number {
   if (nums.length === 0) {
     return 0;
@@ -15,4 +13,4 @@ function removeDuplicates(nums: number[]): number {
   return k; // return the number of unique elements
 };
 
-console.log(removeDuplicates(nums));
+console.log(removeDuplicates([1, 1, 3, 5, 5, 6, 7, 7, 7, 8]));

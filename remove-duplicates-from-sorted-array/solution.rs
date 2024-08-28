@@ -2,15 +2,14 @@ fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
 	if nums.is_empty() {
 		return 0;
 	}
-	let mut k: i32 = 1; // k will hold the count of unique elements
-	// start from the second element and check for duplicates
+	let mut k: i32 = 1;
 	for i in 1..nums.len() {
 		if nums[i] != nums[i - 1] {
-			nums[k as usize] = nums[i]; // place the unique element at index k
+			nums[k as usize] = nums[i];
 			k += 1;
 		}
 	}
-	k// return the number of unique elements
+	k
 }
 
 fn main() {

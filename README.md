@@ -4,3 +4,4 @@ Este repositório contém os seguintes problemas:
 - [Move Zeros](./move-zeros/)
 - [Sort Array By Parity](./sort-array-by-parity/)
 - [Remove Element](./remove-element/)
+- [Height Checker](./height-checker/)
